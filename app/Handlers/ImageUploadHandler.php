@@ -49,6 +49,10 @@ class ImageUploadHandler
         ];
     }
 
+    /**
+     * @param $file_path
+     * @param $max_width
+     */
     public function reduceSize($file_path, $max_width)
     {
         // 先实例化，传参是文件的磁盘物理路径
