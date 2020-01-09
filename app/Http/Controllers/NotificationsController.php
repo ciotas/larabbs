@@ -12,6 +12,9 @@ class NotificationsController extends Controller
         $this->middleware('auth');
     }
 
+    /**
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
     public function index()
     {
         // 获取登录用户的所有通知
