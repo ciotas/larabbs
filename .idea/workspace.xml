@@ -5,12 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/larabbs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/larabbs.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Policies/Policy.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Policies/Policy.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,6 +150,8 @@
       <path value="$PROJECT_DIR$/vendor/cakephp/chronos" />
       <path value="$PROJECT_DIR$/vendor/spatie/laravel-permission" />
       <path value="$PROJECT_DIR$/vendor/viacreative/sudo-su" />
+      <path value="$PROJECT_DIR$/vendor/ckeditor/ckeditor" />
+      <path value="$PROJECT_DIR$/vendor/summerblue/administrator" />
     </include_path>
   </component>
   <component name="ProjectId" id="1VxjbRcvk7uOqAhNqAWfCWozROM" />
@@ -205,7 +204,7 @@
       <workItem from="1578202713992" duration="11000" />
       <workItem from="1578202728730" duration="3964000" />
       <workItem from="1578567104049" duration="3246000" />
-      <workItem from="1578633319598" duration="1755000" />
+      <workItem from="1578633319598" duration="3629000" />
     </task>
     <servers />
   </component>
@@ -229,9 +228,9 @@
       <screen x="0" y="23" width="1280" height="720" />
     </state>
     <state x="305" y="171" key="run.anything.popup/0.23.1280.720@0.23.1280.720" timestamp="1578570395811" />
-    <state x="305" y="67" width="670" height="676" key="search.everywhere.popup" timestamp="1578635709631">
+    <state x="305" y="67" width="670" height="676" key="search.everywhere.popup" timestamp="1578640356405">
       <screen x="0" y="23" width="1280" height="720" />
     </state>
-    <state x="305" y="67" width="670" height="676" key="search.everywhere.popup/0.23.1280.720@0.23.1280.720" timestamp="1578635709631" />
+    <state x="305" y="67" width="670" height="676" key="search.everywhere.popup/0.23.1280.720@0.23.1280.720" timestamp="1578640356405" />
   </component>
 </project>
