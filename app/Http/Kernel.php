@@ -2,6 +2,7 @@
 
 namespace App\Http;
 
+use App\Http\Middleware\AcceptHeader;
 use App\Http\Middleware\EnsureEmailIsVerified;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
@@ -42,6 +43,7 @@ class Kernel extends HttpKernel
         ],
 
         'api' => [
+            AcceptHeader::class,
             'throttle:60,1',
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
         ],
