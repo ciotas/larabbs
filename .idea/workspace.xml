@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09c48609-6775-41a4-9b82-84827c5b45ba" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Providers/EasySmsServiceProvider.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/easysms.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/larabbs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/larabbs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,6 +154,7 @@
       <path value="$PROJECT_DIR$/vendor/viacreative/sudo-su" />
       <path value="$PROJECT_DIR$/vendor/ckeditor/ckeditor" />
       <path value="$PROJECT_DIR$/vendor/summerblue/administrator" />
+      <path value="$PROJECT_DIR$/vendor/overtrue/easy-sms" />
     </include_path>
   </component>
   <component name="ProjectId" id="1VxjbRcvk7uOqAhNqAWfCWozROM" />
@@ -211,7 +217,7 @@
       <workItem from="1579101282413" duration="19000" />
       <workItem from="1579105552449" duration="15000" />
       <workItem from="1579105660936" duration="9000" />
-      <workItem from="1579187924019" duration="693000" />
+      <workItem from="1579187924019" duration="3818000" />
     </task>
     <servers />
   </component>
@@ -223,6 +229,10 @@
       <screen x="0" y="23" width="1280" height="720" />
     </state>
     <state x="240" y="48" key="#Notifications/0.23.1280.720@0.23.1280.720" timestamp="1578203060567" />
+    <state x="339" y="193" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1579261968492">
+      <screen x="0" y="23" width="1280" height="720" />
+    </state>
+    <state x="339" y="193" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.720@0.23.1280.720" timestamp="1579261968492" />
     <state x="70" y="23" key="SettingsEditor" timestamp="1578633703234">
       <screen x="0" y="23" width="1280" height="720" />
     </state>
@@ -235,9 +245,9 @@
       <screen x="0" y="23" width="1280" height="720" />
     </state>
     <state x="305" y="171" key="run.anything.popup/0.23.1280.720@0.23.1280.720" timestamp="1578570395811" />
-    <state x="305" y="67" width="670" height="676" key="search.everywhere.popup" timestamp="1579192050924">
+    <state x="305" y="67" width="670" height="676" key="search.everywhere.popup" timestamp="1579259699764">
       <screen x="0" y="23" width="1280" height="720" />
     </state>
-    <state x="305" y="67" width="670" height="676" key="search.everywhere.popup/0.23.1280.720@0.23.1280.720" timestamp="1579192050924" />
+    <state x="305" y="67" width="670" height="676" key="search.everywhere.popup/0.23.1280.720@0.23.1280.720" timestamp="1579259699764" />
   </component>
 </project>
