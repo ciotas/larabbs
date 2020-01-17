@@ -27,6 +27,11 @@ Route::prefix('v1')
                 Route::post('users', 'UsersController@store')
                     ->name('users.store');
 
+                // 第三方登陆
+                Route::post('socials/{social_type}/authorizations', 'AuthorizationsController@socialStore')
+                    ->where('social_type', 'weixin') // ->where('social_type', 'weixin|weibo')
+                    ->name('socials.authorizations.store');
+
                 // 图片验证码
                 Route::post('captchas', 'CaptchasController@store')
                     ->name('captchas.store');
