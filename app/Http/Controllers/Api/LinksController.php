@@ -12,6 +12,7 @@ class LinksController extends Controller
     public function index(Link $link)
     {
         $links = $link->getAllCached();
+        LinkResource::wrap('data');
         return LinkResource::collection($links);
     }
 }
