@@ -8,9 +8,7 @@ use App\Http\Resources\TopicResource;
 use App\Models\Topic;
 use App\Models\User;
 use Illuminate\Http\Request;
-use Spatie\QueryBuilder\AllowedFilter;
-use Spatie\QueryBuilder\QueryBuilder;
-use TopicQuery;
+use App\Http\Queries\TopicQuery;
 
 class TopicsController extends Controller
 {

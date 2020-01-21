@@ -1,4 +1,5 @@
 <?php
+namespace App\Http\Queries;
 
 use App\Models\Topic;
 use Spatie\QueryBuilder\AllowedFilter;
