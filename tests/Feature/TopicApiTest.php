@@ -41,7 +41,7 @@ class TopicApiTest extends TestCase
         ];
 
         $response->assertStatus(201)
-            ->assertJsonFragment($assertData);
+            ->assertJson($assertData);
     }
 
     public function testUpdateTopic()
@@ -61,7 +61,7 @@ class TopicApiTest extends TestCase
         ];
 
         $response->assertStatus(200)
-            ->assertJsonFragment($assertData);
+            ->assertJson($assertData);
     }
 
     protected function makeTopic()
@@ -85,7 +85,7 @@ class TopicApiTest extends TestCase
         ];
 
         $response->assertStatus(200)
-            ->assertJsonFragment($assertData);
+            ->assertJson($assertData);
     }
 
     public function testIndexTopic()
